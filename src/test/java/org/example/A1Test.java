@@ -18,7 +18,7 @@ public class A1Test {
 
     @BeforeAll
     static void preparationOfTest() {
-        System.setProperty("chromedriver-win64.zip", "src/main/resources/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/resources/chromedriver-win64.zip");
 
     }
 
